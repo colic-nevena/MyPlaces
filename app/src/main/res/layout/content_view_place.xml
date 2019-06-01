@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ViewPlaceActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_view_place"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginEnd="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_name_editmyplace"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv_name_viewplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_desc_editmyplace"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv_desc_viewplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*"
+        android:layout_marginTop="8dp">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_lat_editmyplace"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_long_editmyplace"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tv_long_viewplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/tv_lat_viewplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_ok_viewplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_ok_aboutplace"/>
+            <Button
+                android:id="@+id/btn_location_editmyplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See location"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

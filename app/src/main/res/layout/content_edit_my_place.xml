@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EditMyPlaceActivity"
+    tools:showIn="@layout/activity_edit_my_place"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_name_editmyplace"/>
+
+    <EditText
+        android:id="@+id/et_name_editmyplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_desc_editmyplace"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/et_desc_editmyplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*"
+        android:layout_marginTop="8dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_lat_editmyplace"/>
+                <EditText
+                    android:id="@+id/et_lat_editmyplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_long_editmyplace"
+                    android:layout_marginTop="8dp"/>
+                <EditText
+                    android:id="@+id/et_long_editmyplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_location_editmyplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/btn_location_editmyplace"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+            <Button
+                android:id="@+id/btn_save_editmyplace"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"/>
+            <Button
+                android:id="@+id/btn_cancel_editmyplace"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:text="@string/lbl_cancel_editmyplace"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

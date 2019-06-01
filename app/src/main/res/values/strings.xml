@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Places</string>
+    <string name="quote_travel1">LIFE IS SHORT AND</string>
+    <string name="quote_travel2">THE WORLD IS WIDE</string>
+    <string name="show_map">Show Map</string>
+    <string name="new_place">New Place</string>
+    <string name="about">About</string>
+    <string name="btn_ok_aboutplace">OK</string>
+    <string name="my_places_list">My Places</string>
+    <string name="about_text">This app is my first Android project, enjoy!</string>
+    <string name="title_activity_my_places_list">My Places</string>
+    <string name="title_activity_edit_my_place">Edit Place</string>
+    <string name="lbl_name_editmyplace">Name: </string>
+    <string name="lbl_desc_editmyplace">Description: </string>
+    <string name="lbl_cancel_editmyplace">Cancel</string>
+    <string name="lbl_save_editmyplace">Save</string>
+    <string name="lbl_lat_editmyplace">Latitude:</string>
+    <string name="lbl_long_editmyplace">Longitude:</string>
+    <string name="btn_location_editmyplace">Get Location</string>
+    <string name="title_activity_view_place">View Place</string>
+    <string name="tv_deleteplace">Are you sure you want to remove selected place?</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

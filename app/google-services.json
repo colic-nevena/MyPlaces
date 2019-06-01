@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066917585160",
+    "firebase_url": "https://myplaces-bfacf.firebaseio.com",
+    "project_id": "myplaces-bfacf",
+    "storage_bucket": "myplaces-bfacf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066917585160:android:1f40181d49f1b5b0",
+        "android_client_info": {
+          "package_name": "com.example.myplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066917585160-aer6ee6k6i31tsl2u14fe7karp3iheoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myplaces",
+            "certificate_hash": "27d92c84d36fa0d03c7229da599b21e857e2ed6b"
+          }
+        },
+        {
+          "client_id": "1066917585160-m0fsl1qoliljpjsg0sj54j9r21okmgjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL_NJAoxRxC4s9tiOUl3GCiKB4zf46jMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066917585160-m0fsl1qoliljpjsg0sj54j9r21okmgjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
